@@ -1,0 +1,152 @@
+@media screen  and (max-width: 1022px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .plans_list_item {
+
+       min-width:  250px;
+    }
+}
+
+
+@media screen  and (max-width: 785px) {
+    .header_main-menu {
+        text-align: center;
+    }
+
+    .icon {
+        float: none;
+    }
+
+    .header_menu {
+      float: none;
+      padding-top: 10px;
+    }
+
+    .footer {
+        padding:  1% 0 10%;
+    }
+}
+
+@media screen  and (max-width: 670px) {
+
+    .section_health {
+        padding-bottom: 150px;
+    }
+
+    
+    .caption_line,
+    .caption_health:after {
+        display: none;
+    }
+
+    .caption_health:before {
+      white-space: nowrap;
+    
+    }
+
+    .caption_health {
+        left: 0;
+        top: 100%;
+    }
+
+    .caption_calories:before {
+       margin-bottom: 0;
+    }
+
+     .caption_protein:before {
+         left: 0;
+      
+    }
+
+    .caption_water:before {
+        left: 0;
+    }
+
+
+
+    .caption_calories {
+        margin-top: 15px;
+        margin-left: 66px; 
+        }
+
+    .caption_fat {
+      
+        margin-top: 45px;
+        margin-left: 92px;
+    }
+
+    .caption_water {
+         margin-top: 75px;
+        margin-left: 84px;
+       
+    }
+
+    .caption_protein {
+        margin-top: 110px;
+        margin-left: 72px;
+       
+    }
+
+
+
+ /*--------------------------------------------------------*/
+    .footer_menu_item {
+        margin-right:  5px;
+    }
+  
+}
+
+
+@media screen  and (max-width: 599px) {
+    
+    /*менюшка выпадает*/
+    .header_main-menu {
+        text-align: center;
+    }
+    .menu_button {
+        display: inline-block;
+        background: rgba(255,255,255, 0.3);
+        padding: 0 32px;
+        color: white;
+     }
+
+    .header_menu_list {
+       display: inline-block;
+       opacity: 0;
+    }
+
+    .header_menu_item {
+      background: rgba(255,255,255, 0.1);
+      display: block;
+    }
+
+    .header_menu_item:last-child {
+    border: 1px solid transparent;
+}
+
+    #check:checked + .header_menu_list {
+      opacity: 1;
+    }
+
+
+
+}
+
+
+@media screen  and (max-width: 461px) {
+   
+    .footer_menu {
+         display: block;
+         text-align: center;
+         padding-bottom: 10%;
+        }
+
+    
+
+   .footer_button {
+        float:  none;
+        text-align: center;
+    }
+}

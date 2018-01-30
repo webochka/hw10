@@ -61,6 +61,10 @@
 
 .header_menu_link {
     display: inline-block;
+}
+
+.header_menu_link,
+.menu_button {
     line-height: 33px;
     font-family: "Myriad-semibold";
     font-size: 21px;
@@ -78,3 +82,8 @@
     display: inline-block;
     padding-top: 29px;
 }
+
+#check,
+.menu_button {
+        display: none;
+    }
