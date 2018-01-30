@@ -1,0 +1,73 @@
+.section_plans {
+    background: #e9ede9;
+    text-align: center;
+    padding: 114px 0 92px;
+}
+
+.title_plans {
+    padding-bottom: 20px;
+}
+
+.plans_description {
+    font-family: "Myriad";
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 85px;
+}
+
+.plans_list {
+    font-size: 0;
+    text-align: center;
+}
+
+.plans_list_item {
+    padding: 35px 0 40px;
+    display: inline-block;
+    width: 31.2%;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    background: #d3cfcf;
+}
+
+.plans_list_title {
+    font-family: "Myriad-semibold";
+    font-size: 33px;
+    color: #7d7b7b;
+}
+
+.plans_list_title *,
+.plans_price {
+    font-family: "Myriad";
+    font-size: 32px;
+}
+
+.plans_list_title * {
+    color: #afacac;
+}
+
+.plans_list_title + .plans_price {
+    padding: 50px 0 20px;
+    color: #4e4e4e;
+}
+
+.plans_price + .plans_price {
+    padding-bottom: 38px;
+    color: #b38e48;
+}
+
+.plans_button {
+    padding: 9px 17px;
+    border: 1px solid #71ae5a;
+    border-radius: 12px;
+    background: #71ae5a;
+    font-family: "Myriad";
+    font-size: 16px;
+    color: white;
+}
+
+.plans_button:hover {
+    background: #a8e88f;
+    border: 1px solid #71ae5a;
+    color: #71ae5a;
+    transition: all 0.3s linear;
+}

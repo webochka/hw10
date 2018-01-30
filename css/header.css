@@ -1,0 +1,80 @@
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Myriad";
+    font-size: 47px;
+    font-weight: normal;
+}
+
+.header {
+    background: radial-gradient(at center bottom, rgba(56, 93, 57, 0.7), rgba(56, 93, 57, 1) 60%);
+    padding: 37px 0 106px;
+}
+
+.header_main-menu {
+    padding-bottom: 98px;
+}
+
+.icon {
+    float: left;
+}
+
+.header_menu {
+    float: right;
+    padding-top: 5px;
+}
+
+.header_main-menu::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.icon_img {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
+.icon_title {
+    font-family: "Myriad-bold";
+    font-size: 37px;
+    color: white;
+}
+
+.header_menu_item:last-child {
+    border: 1px solid white;
+}
+
+.header_menu_item {
+    display: inline-block;
+    padding: 0 16px;
+    border: 1px solid transparent;
+}
+
+.header_menu_item:hover {
+    border: 1px solid white;
+}
+
+.header_menu_link {
+    display: inline-block;
+    line-height: 33px;
+    font-family: "Myriad-semibold";
+    font-size: 21px;
+}
+
+.header_content {
+    text-align: center;
+}
+
+.header_title {
+    color: white;
+}
+
+.header_img {
+    display: inline-block;
+    padding-top: 29px;
+}

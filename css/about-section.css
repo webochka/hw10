@@ -1,0 +1,97 @@
+.about_section {
+     padding: 117px 0 116px;
+    text-align: center;
+}
+
+.about_description {
+    font-family: "Myriad";
+    font-size: 25px;
+    line-height: 36px;
+    padding-top: 14px;
+    padding-bottom: 68px;
+}
+
+.svg-watermelon {
+    width: 250px;
+    height: 243px;
+}
+
+.watermelon-ellipse1 {
+    transform: translate(125px, 122px);
+    fill: #7ab34b;
+}
+
+.watermelon-ellipse2 {
+    transform: translate(125px, 122px);
+    fill: #e65355;
+    stroke: #ccd478;
+    stroke-width: 10px;
+}
+
+.watermelon-seeds {
+    fill: black;
+}
+
+.watermelon-seed-1 {
+    transform: translate(70px, 79px) rotate(40deg);
+}
+
+.watermelon-seed-2 {
+    transform: translate(176px, 79px) rotate(144deg);
+}
+
+.watermelon-seed-3 {
+    transform: translate(99px, 71px) rotate(17deg);
+}
+
+.watermelon-seed-4 {
+    transform: translate(151px, 68px);
+}
+
+.watermelon-seed-5 {
+    transform: translate(89px, 99px) rotate(169deg);
+}
+
+.watermelon-seed-6 {
+    transform: translate(65px, 115px) rotate(199deg);
+}
+
+.watermelon-seed-7 {
+    transform: translate(158px, 99px) rotate(39deg);
+}
+
+.watermelon-seed-8 {
+    transform: translate(181px, 121px) rotate(29deg)
+}
+
+.watermelon-seed-9 {
+    transform: translate(90px, 134px) rotate(19deg);
+}
+
+.watermelon-seed-10 {
+    transform: translate(157px, 134px) rotate(19deg);
+}
+
+.watermelon-seed-11 {
+    transform: translate(63px, 150px) rotate(148deg);
+}
+
+.watermelon-seed-12 {
+    transform: translate(184px, 150px) rotate(24deg);
+}
+
+.watermelon-seed-13 {
+    transform: translate(80px, 167px);
+}
+
+.watermelon-seed-14 {
+    transform: translate(168px, 163px) rotate(13deg);
+}
+
+.watermelon-seed-15 {
+    transform: translate(103px, 190px) rotate(148deg);
+}
+
+.watermelon-seed-16 {
+    transform: translate(157px, 186px) rotate(58deg);
+}

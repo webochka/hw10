@@ -1,0 +1,48 @@
+.footer {
+    background: #e9ede9;
+    padding: 91px 0 102px;
+}
+
+.footer_menu {
+    float: left;
+}
+
+.footer_button {
+    float: right;
+}
+
+.footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer_menu_item {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.footer_menu_link {
+    display: inline-block;
+    padding-bottom: 15px;
+    font-family: "Myriad-semibold";
+    font-size: 18px;
+    color: #747373;
+}
+
+.footer_menu_link:hover {
+    text-decoration: underline;
+    color: #71ae5a;
+}
+
+.footer_info {
+    font-family: "Myriad";
+    font-size: 18px;
+    color: #958f8f;
+}
+
+.footer-button {
+    background: #71ae5a;
+    border-radius: 23px;
+    padding: 13px 13px 17px;
+}

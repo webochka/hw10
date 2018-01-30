@@ -1,0 +1,153 @@
+.title_health,
+.about_health {
+    color: white;
+}
+
+.section_health {
+    background: #2b342b;
+    padding: 96px 0 102px;
+    text-align: center;
+}
+
+.about_health {
+    padding: 19px 0 46px;
+    font-family: "Myriad";
+    font-size: 25px;
+}
+
+.health_main-content {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.caption_line {
+    stroke-width: 7px;
+}
+
+.calories_line {
+    width: 200px;
+    height: 53px;
+    stroke-width: 3.5px;
+    stroke: #fd6363;
+}
+
+.fat_line {
+    width: 181px;
+    height: 7px;
+    stroke: #fef45a;
+}
+
+.water_line {
+    width: 163px;
+    height: 7px;
+    stroke: #8cdbf2;
+}
+
+.protein_line {
+    width: 186px;
+    height: 41px;
+    stroke: #d4fa7a;
+}
+
+.caption_health {
+    position: absolute;
+}
+
+.caption_calories {
+    bottom: 0;
+    right: 100%;
+    margin-right: -8%;
+    margin-bottom: 28%;
+}
+
+.caption_fat {
+    bottom: 0;
+    right: 100%;
+    margin-right: -45%;
+    margin-bottom:  3%;
+}
+
+.caption_water {
+    bottom: 0;
+    left: 100%;
+    margin-left: -20%;
+    margin-bottom: 25%;
+}
+
+.caption_protein {
+    top: 0;
+    left: 100%;
+    margin-left: -8%;
+    margin-top: 14%;
+}
+
+.caption_health:before {
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    font-size: 22px;
+    color: white;
+    font-family: "Myriad";
+}
+
+.caption_calories:before {
+    content: "Calories 35Kcal";
+    left: 0;
+    margin-bottom: -40px;
+}
+
+.caption_fat:before {
+    content: "Fat 0.63g";
+    left: 0;
+}
+
+.caption_water:before {
+    content: "Water 92%";
+    right: 0;
+}
+
+.caption_protein:before {
+    content: "Protein 0.63g";
+    right: 0;
+    margin-bottom: 5px;
+}
+
+.caption_health:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: url(../images/circle.png) no-repeat;
+    background-size: contain;
+}
+
+.caption_calories:after {
+    width: 36px;
+    height: 36px;
+    left: 100%;
+    margin-left: -15px;
+}
+
+.caption_fat:after {
+    width: 23px;
+    height: 23px;
+    left: 100%;
+    margin-left: -2px;
+    margin-top: -5px;
+}
+
+.caption_water:after {
+    width: 25px;
+    height: 25px;
+    right: 100%;
+    margin-top: -5px;
+}
+
+.caption_protein:after {
+    width: 34px;
+    height: 34px;
+    right: 100%;
+    margin-top: 30px;
+    margin-right: -7px;
+}
