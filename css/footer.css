@@ -1,6 +1,6 @@
 .footer {
-    background: #e9ede9;
-    padding: 91px 0 102px;
+   background: #e9ede9;
+   padding: 7% 0 8%;
 }
 
 .footer_menu {
@@ -11,7 +11,7 @@
     float: right;
 }
 
-.footer::after {
+.container::after {
     content: '';
     display: block;
     clear: both;
