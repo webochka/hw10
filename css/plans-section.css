@@ -1,7 +1,7 @@
 .section_plans {
     background: #e9ede9;
     text-align: center;
-    padding: 114px 0 92px;
+    padding: 8.4% 0 6.8%;
 }
 
 .title_plans {
@@ -12,7 +12,7 @@
     font-family: "Myriad";
     font-size: 25px;
     line-height: 30px;
-    padding-bottom: 85px;
+    padding-bottom: 8.7%;
 }
 
 .plans_list {
@@ -21,10 +21,10 @@
 }
 
 .plans_list_item {
-    padding: 35px 0 40px;
+    padding: 3.5% 0 4.1%;
     display: inline-block;
     width: 31.2%;
-    min-width: 220px;
+    min-width: 180px;
     margin: 0 10px 10px 10px;
     text-align: center;
     background: #d3cfcf;
@@ -46,13 +46,13 @@
     color: #afacac;
 }
 
-.plans_list_title + .plans_price {
-    padding: 50px 0 20px;
+.plans_list_title+.plans_price {
+    padding: 16.5% 0 6.5%;
     color: #4e4e4e;
 }
 
-.plans_price + .plans_price {
-    padding-bottom: 38px;
+.plans_price+.plans_price {
+    padding-bottom: 12.5%;
     color: #b38e48;
 }
 

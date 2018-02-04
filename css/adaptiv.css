@@ -1,11 +1,11 @@
-@media screen  and (max-width: 1022px) {
+@media screen and (max-width: 1024px) {
     .container {
-        padding: 0 10px;
+        padding: 0 15px;
     }
 }
 
 
-@media screen  and (max-width: 785px) {
+@media screen and (max-width: 785px) {
     .header_main-menu {
         text-align: center;
     }
@@ -15,16 +15,16 @@
     }
 
     .header_menu {
-      float: none;
+        float: none;
     }
 }
 
-@media screen  and (max-width: 670px) {
-    
-     .caption_health {
+@media screen and (max-width: 670px) {
+
+    .caption_health {
         position: static;
         margin: 0;
-        padding:  5px 0;
+        padding: 5px 0;
     }
 
     .caption_line,
@@ -36,69 +36,56 @@
         position: static;
         display: inline-block;
         margin: 0;
-
     }
 }
 
-
-@media screen  and (max-width: 599px) {
-    
-    /*менюшка выпадает*/
-    .header_main-menu {
-        text-align: center;
-    }
+@media screen and (max-width: 600px) {
 
     .header_menu {
         padding-top: 15px;
     }
 
     .menu_button {
-        display: inline-block;
-        background: rgba(255,255,255, 0.3);
-        padding: 0 32px;
+        display: block;
+        background: rgba(0, 0, 0, 0.4);
         color: white;
-     }
-
-    .header_menu_list {
-        display:  none;
-     
     }
 
     .header_menu_item {
-      background: rgba(255,255,255, 0.1);
-      display: block;
+        display: block;
+        background: rgba(0, 0, 0, 0.2);
     }
 
+    .header_menu_item,
+    .header_menu_item:hover,
     .header_menu_item:last-child {
-         border: 1px solid transparent;
+        border: 0;
     }
 
-    #check:checked + .header_menu_list {
-        display:  inline-block;
-     
+    .header_menu_list {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
     }
 
-}
+    #check:checked+.header_menu_list {
+        position: relative;
+        visibility: visible;
+        opacity: 1;
+        transition: all 1s linear;
+    }
 
-
-@media screen  and (max-width: 589px) {
-    
     .footer {
         text-align: center;
     }
 
     .footer_menu {
-        float:  none;
+        float: none;
         display: inline-block;
     }
 
     .footer_button {
-        float:  none;
-    }
-
-    .footer_menu_item {
-        box-shadow: 3px 2px 10px gray;
-        border-radius: 3px;
+        float: none;
     }
 
     .footer_menu_item {
@@ -113,5 +100,4 @@
     .footer_info {
         padding: 15px 0 30px;
     }
-   
 }

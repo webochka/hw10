@@ -11,12 +11,11 @@
 
 .header {
     background: radial-gradient(at center bottom, rgba(56, 93, 57, 0.7), rgba(56, 93, 57, 1) 60%);
-    padding: 37px 0 7.9% ;
+    padding: 37px 0 7.9%;
 }
 
 .header_main-menu {
     padding-bottom: 10%;
-   
 }
 
 .icon {
@@ -86,5 +85,5 @@
 
 #check,
 .menu_button {
-        display: none;
-    }
+    display: none;
+}

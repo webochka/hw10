@@ -1,5 +1,4 @@
 .about_section {
-
     padding: 8.8% 0 8.6%;
     text-align: center;
 }
@@ -13,8 +12,7 @@
 }
 
 .svg-watermelon {
-    width: 250px;
-    height: 243px;
+    max-width: 250px;
 }
 
 .watermelon-ellipse1 {
